@@ -1,0 +1,41 @@
+
+
+.solve{
+  padding-top: 128px ;
+  .solve__hed{
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  align-items: center;
+  .solve__hed-titule{
+    h6{
+      color: #282938;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+    }
+    h1{
+      margin-top: 8;
+      color: #282938;
+      font-size: 54px;
+      font-style: normal;
+      font-weight: 600;
+    }
+    p{
+      margin-top: 32px;
+      width: 484px;
+      color: #282938;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+    }
+  }
+}
+.focussed{
+  padding: 96px 80px;
+  background-color: #F4F5F5;;
+  margin-top: 128px;
+  gap: 40px;
+  display: flex;
+}
+}

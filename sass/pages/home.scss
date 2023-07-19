@@ -1,0 +1,77 @@
+.building{
+  padding-top: 120px;
+  padding-bottom: 50px;
+  background-color: #1C1E53;
+  .building__container-lg{
+    display: flex;
+    gap: 10px;
+
+  }
+  .building__text{
+    color: #fff;
+    h1{
+      font-size: 54px;
+      font-style: normal;
+      font-weight: 600;
+    }
+    button{
+      background-color: transparent;
+      border: none;
+      color: #fff;
+    }
+    .btn{
+      color: #000000;
+      border-radius: 41px;
+      background: #FCD980;
+      padding: 16px 26px;
+    }
+  }
+  .building__img{
+    
+    img{
+      width: 700px;
+    }
+  }
+}
+.solves{
+  padding-top: 90px;
+  background-color: rgba(244, 246, 252, 1) ;
+
+  &__cart{
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+  }
+
+}
+.projeckt{
+  padding-top: 60px;
+  padding-bottom: 128px;
+  &__titule{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    h2{
+      font-size: 48px;
+      color:#282938 ;
+    }
+    a{
+      text-decoration: none;
+      color: #282938;
+      font-size: 16px;
+    }
+  }
+  &__img  {
+     margin-top: 70px;
+      display: flex;
+      justify-content: center;
+      gap: 45px;
+    .card-img{
+      display: grid;
+      grid-template-rows: 1fr;
+      gap: 24px;
+    }
+  }
+}
