@@ -9,18 +9,53 @@
           integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" rel="stylesheet">
 </head>
 <body>
-<section class="building ">
-    <header>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="about.html">About us</a></li>
-            <li><a href="Pricing.html">Pricing</a></li>
-            <li><a href="">Work</a></li>
-            <li><a href="">Blog</a></li>
-        </ul>
+     <header class="heder">
+        <nav class="navbar navbar-light ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="img/Logo.svg" alt="a" width="140" height="24.71" class="d-inline-block align-text-top">
+              </a>
+              <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="about.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">About us</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog-paj.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <button class="">Contact us</button>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="container-sm nav_bar ">  
+            <div class="collapse "  id="navbarToggleExternalContent">
+                        <div class="bg-dark p-4">
+                        <h5 class="text-white h4">Collapsed content</h5>
+                        <span class="text-muted">Toggleable via the navbar brand.</span>
+                        </div>
+                    </div>
+                    <nav class="navbar navbar-dark bg-dark">
+                        <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        </div>
+                    </nav>
+          </div>
+          
     </header>
-    <div class="container-sm building__container-lg ">
-
+<section class="building ">
+    <div class="container-fluid building__container-lg ">
         <div class="building__text">
             <h1>
                 Building stellar websites for early startups
@@ -35,7 +70,7 @@
     </div>
 </section>
 <section class="projeckt">
-    <div class="container-sm">
+    <div class="container-fluid">
         <div class="projeckt__titule">
             <h2>View our projects</h2>
             <a href=".">View More</a>
@@ -50,7 +85,7 @@
     </div>
 </section>
 <section class="solves">
-    <div class="container-sm">
+    <div class="container-fluid">
         <div class="solves__titule text-center">
             <span>Features</span>
             <h2>Design that solves problems, one product at a time</h2>
@@ -100,12 +135,30 @@
             </div>
             </di>
         </div>
+</section>
+<section class="clients">
+    <div class="container-fluid clients__container-sm ">
+        <div class="clients__right">
+            <h2>What our clients say about us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p>
 
+        </div>
+        <div class="clients__left">
+            <p>"The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."</p>
+            <div class="leftdiv">
+                <img src="img/Mask Group.png" alt="a">
+                <ul>
+                    <h5>Jenny Wilson</h5>
+                    <span>Vice President</span>
+                </ul>
+            </div>
+        </div>
+    </div>
 </section>
 
 
-<script crossorigin="anonymous"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+    <script crossorigin="anonymous"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>

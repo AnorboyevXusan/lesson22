@@ -1,0 +1,49 @@
+.environment {
+  padding-top: 128px;
+  text-align: center;
+}
+.environment .environment__titule h1 {
+  color: #282938;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+}
+.environment .environment__titule p {
+  margin-top: 25px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+.environment .environment__img {
+  margin-top: 100px;
+}
+.environment .environment__text p {
+  position: relative;
+  left: 755px;
+  width: 831px;
+  text-align: center;
+  margin-top: 35px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.our-blog {
+  margin-top: 128px;
+}
+.our-blog .our-blog__titule h2 {
+  text-align: center;
+  color: #282938;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+}
+.our-blog .box-cart {
+  position: relative;
+  left: 230px;
+  margin-top: 100px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 45px;
+}
